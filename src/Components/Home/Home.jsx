@@ -1,9 +1,10 @@
+import FeaturedJob from "../FeaturedJob/FeaturedJob";
 
 
 const Home = () => {
     return (
         <div>
-            <h1 className="text-2xl">Home</h1>
+            <FeaturedJob></FeaturedJob>
         </div>
     );
 };
